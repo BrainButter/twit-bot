@@ -1,2 +1,2 @@
-cd ~/twit-bot/views
-ls
+cd ~/twit-bot/views/da-bot-cont
+git pull
