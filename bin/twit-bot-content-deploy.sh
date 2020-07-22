@@ -1,2 +1,2 @@
-cd ../views
+cd ~/twit-bot/views
 ls
