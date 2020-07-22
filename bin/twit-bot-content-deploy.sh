@@ -1,2 +1,2 @@
-cd ../view
+cd ../views
 ls
