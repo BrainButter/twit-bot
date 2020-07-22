@@ -1,2 +1,2 @@
-cd ~/twit-bot/views/da-bot-cont
+cd ~/twit-bot/static/da-bot-cont
 git pull
