@@ -1,4 +1,2 @@
-cd ~/da-bot
+cd ~/twit-bot/static/da-bot-cont
 git pull
-ng build
-cp ~/da-bot ~/twit-bot/static/da-bot-cont
