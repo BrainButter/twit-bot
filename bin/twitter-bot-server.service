@@ -9,7 +9,7 @@ Group=nogroup
 Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 Environment=NODE_ENV=production
 WorkingDirectory=/root/twit-bot
-ExecStart=/usr/bin/npm start
+ExecStart=/root/twit-bot/bin/launch-server.sh
 
 [Install]
 WantedBy=multi-user.target
