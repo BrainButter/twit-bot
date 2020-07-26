@@ -3,9 +3,9 @@ Description=Twitter-bot-server
 
 [Service]
 Restart=always
-User=root
+User=nobody
 # Note Debian/Ubuntu uses 'nogroup', RHEL/Fedora uses 'nobody'
-Group=0
+Group=nogroup
 Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 Environment=NODE_ENV=production
 WorkingDirectory=/root/twit-bot
