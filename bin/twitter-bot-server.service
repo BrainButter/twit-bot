@@ -2,7 +2,7 @@
 Description=Twitter-bot-server
 
 [Service]
-ExecStart=/usr/bin/node /root/twit-bot/bin/www.js
+ExecStart=/usr/bin/npm start
 Restart=always
 User=nobody
 # Note Debian/Ubuntu uses 'nogroup', RHEL/Fedora uses 'nobody'
