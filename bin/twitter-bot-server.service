@@ -2,14 +2,14 @@
 Description=Twitter-bot-server
 
 [Service]
-ExecStart=~/twit-bot/bin/www.js
+ExecStart=~/root/twit-bot/bin/www.js
 Restart=always
 User=nobody
 # Note Debian/Ubuntu uses 'nogroup', RHEL/Fedora uses 'nobody'
 Group=nogroup
 Environment=PATH=/usr/bin:/usr/local/bin
 Environment=NODE_ENV=production
-WorkingDirectory=~/twit-bot/
+WorkingDirectory=~/root/twit-bots
 
 [Install]
 WantedBy=multi-user.target
